@@ -1,0 +1,5 @@
+HotKeys:
+
+    -Help Menu: h
+
+    -Move Keys: m

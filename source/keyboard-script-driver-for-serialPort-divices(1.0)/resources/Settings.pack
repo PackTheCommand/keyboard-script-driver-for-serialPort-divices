@@ -1,0 +1,4 @@
+@code=not_deletable
+pull_delay=0.1
+Serial_Port=COM4
+baudrate=115200
