@@ -2,26 +2,26 @@
 this is a driver software with a visual interface to use serial port divices like Aduino-Uno as a macro-keybord
 
 How to install :
-- put the exe file found in keyboard-script-driver-for-serialPort-divices/exe/
-  into any folder on your computer and right klick the file .
-  Now select if you want to start the driver at statup.
+  - put the exe file found in keyboard-script-driver-for-serialPort-divices/exe/
+    into any folder on your computer and right klick the file .
+    Now select if you want to start the driver at statup.
 
 How to use :
 
-The Driver comunicates via Serial With the aduino.
+  The Driver comunicates via Serial With the aduino.
 
-use the following code inside the AduinoProgram:
-'
-void setup() {
-  Serial.begin(115200);
+  use the following code inside the AduinoProgram:
+  '
+  void setup() {
+    Serial.begin(115200);
   }
 
-'
-info: the baudrate can be chanced in the setings.pack file (location: <roodFolder>/resources/setings.pack)
+  '
+  info: the baudrate can be chanced in the setings.pack file (location: <roodFolder>/resources/setings.pack)
 
 
-Now you can send codes via 'Serial.print();'
-in the main loop.
+  Now you can send codes via 'Serial.print();'
+  in the main loop.
 
 
 Modifiing keys:
