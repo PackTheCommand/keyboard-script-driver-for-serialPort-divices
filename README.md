@@ -8,7 +8,7 @@ How to install :
 
 How to use :
 
-    The Driver comunicates via Serial With the aduino.
+    The Driver comunicates via Serial with the aduino.
 
     use the following code inside the AduinoProgram:
     '
