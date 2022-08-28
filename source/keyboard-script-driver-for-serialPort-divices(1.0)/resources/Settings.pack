@@ -2,3 +2,5 @@
 pull_delay=0.1
 Serial_Port=COM4
 baudrate=115200
+firstRun=1
+q_ask_startup=1
